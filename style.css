@@ -1,5 +1,7 @@
 body {
     background: wheat;
+   
+
 }
 
 h1 {
@@ -8,14 +10,27 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
-    text-decoration: underline;
+#aboutMatt {
+    text-align: center;
+    border: black;
+    border-style: solid;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: aliceblue;
+    
 }
-
-img {
-    float: left;
+#outer{
+    padding-top: 30px;
 }
-
-p {
-    text-indent: 5%;
+#box{
+    width: 33%;
 }
+#aboutHuck{
+    border: greenyellow;
+    border-style: dotted;
+    border-width: 5px;
+    padding-top: 15px;
+    background-color: darkgray;
+    padding-right: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
