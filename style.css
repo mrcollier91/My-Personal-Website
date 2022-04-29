@@ -23,7 +23,7 @@ h1 {
     padding-top: 30px;
 }
 #box{
-    width: 33%;
+    width: 40%;
 }
 #aboutHuck{
     border: greenyellow;
@@ -34,3 +34,8 @@ h1 {
     padding-right: 75%;
     padding-left: 5%;
     padding-right: 5%;
+    text-align: center;
+}
+#textOfHuck{
+    padding-top: 5px;
+}
