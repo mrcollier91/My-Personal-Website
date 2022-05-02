@@ -1,7 +1,5 @@
 body {
-    background: wheat;
-   
-
+background-image: url(./css-lattice-pattern.png)
 }
 
 h1 {
@@ -35,7 +33,36 @@ h1 {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+    
 }
 #textOfHuck{
     padding-top: 5px;
+    
+}
+#haveAConversation{
+    border: black;
+    border-style: dotted;
+    border-width: 5px;
+   float: right;
+   padding-top: 15px;
+   width: 45%;
+   text-align: center;
+   height: auto;
+   background-color: white;
+   text-decoration: underline;
+   
+
+}
+
+#biggerBox{
+    padding: auto;
+    block-size: auto;
+    border: black;
+}
+
+.foodLists{
+    text-align: center;
+    position: relative;
+    padding-left: 35%;
+    padding-right: 35%;
 }

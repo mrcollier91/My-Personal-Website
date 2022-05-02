@@ -13,27 +13,52 @@
         <p>From age 18 all I have ever done is work pipeline construction. With the birth of my son Huck things have changed, I began looking for an alternative career that is what led me to Flatiron School.</p>
     </div>
 
-    <div id="outer">
-    <div id="box">
+<div id="outer">
+  <div id="biggerBox">
+    <div id = "haveAConversation">
+      <div id="conversationHeading"></div>
+      <h3>Ask Huck what food he likes.</h3>
+      <div id="conversation">
+        <h5>
+          <label for="question">Do you like...</label>
+          <input type="text" id=question> 
+          <button id="questionBtn">ask</button>
+          <script> document.getElementById("questionBtn").addEventListener("click", myFunction);
+            function myFunction() {
+            
+            alert ("yummy")
+          }
+          </script>
+          <h3>Foods Huck has tried.</h3>
+         <div class="foodLists">
+          <ul>
+            <li>banana</li>
+            <li>apple sauce</li>
+            <li>pears</li>
+            <li>peas</li>
+            <li>avacado</li>
+            <li>spinach</li>
+          </ul>
+        </div>
+        </h5>
+      </div>
+    </div>
+    </div>
+  <div id="box">
     <div id="aboutHuck">
       <h1>Lets meet Huck</h1>
       <p>
-      
-              <img src="./hucks picture.jpeg" alt="image of Huck" width="300" height="400">
-             <div id="textOfHuck"> Huck was born August 14th 2021 in Baton Rouge, Louisiana. Huck enjoys playing with toys, slobbering, and making a mess while eating new foods. Hucks best friend is his older brother Colt and his dog Tucker.
-              </div>
-      <button id="myBtn">Try it</button>
-      <script> document.getElementById("myBtn").addEventListener("click", myFunction);
-
-        function myFunction() {
+        <img src="./hucks picture.jpeg" alt="image of Huck" width="300" height="400">
+          <div id="textOfHuck"> Huck was born August 14th 2021 in Baton Rouge, Louisiana. Huck enjoys playing with toys, slobbering, and making a mess while eating new foods. Hucks best friend is his older brother Colt and his dog Tucker.</div>
+          <button id="myBtn">Say Hello!</button>
+          <script> document.getElementById("myBtn").addEventListener("click", myFunction);
+            function myFunction() {
             alert ("Huck says HELLO!")
-        }</script>
+          }</script>
       </p>
+      </div>
+    </div>
     </div>
   </div>
-</div>
-</div>
-</div>
-        
   </body>
 </html>
