@@ -65,16 +65,35 @@
   <div id="aboutFamilySection">
     <div id="meetFamilyTitle">
       <h1>Lets meet the rest of my family</h1>
+      <h3>click the pictures to learn about each family member</h3>
       <div class="container">
       <div id="meet family text">
         <div id="JulesBox"><img src="./Jules-pic.jpg" alt="My wife" width="100%" height="350px"></div>
         <script> document.getElementById("JulesBox").addEventListener("click", picFunction);
-        function picFunction() {
-         alert ("My wife is amainging")
-        }
+          function picFunction() {
+           alert ("My wife is amainging")
+          }
         </script>
         <div id="ColtsBox"><img src="./colts-pic.jpg" alt="My oldest son" width="100%" height="350px"></div>
+        <script> document.getElementById("ColtsBox").addEventListener("mouseover", changeText);
+          function changeText(value) {
+            var ColtsBox = document.getElementById("ColtsBox")
+            var text = "Colt is almost 8 years old and likes riding his dirtbike!";
+
+            ColtsBox.innerHTML = text;
+          }
+        </script>
         <div id="TuckersBox"><img src="./tuckers-pic.JPG" alt="picture of black lab" width="100%" height="350px"></div>
+        <script> document.getElementById("TuckersBox").addEventListener("click" , changeText);
+          function changeText(value) {
+            var TuckersBox = document.getElementById("TuckersBox")
+            var text = "This is Tucker tucker enjoys long walks, playing fetch, and lounging around the house!";
+
+            TuckersBox.innerHTML = text;
+          }
+          
+
+        </script>
       </div>
     </div>
   </div>

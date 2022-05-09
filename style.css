@@ -107,6 +107,8 @@ h1 {
     background: blue;
     width: 30%;
     height: 350px;
+    text-align: center;
+    font-size: larger;
 }
 
 #Jpictext{
