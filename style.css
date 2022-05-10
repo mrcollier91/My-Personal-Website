@@ -111,7 +111,52 @@ h1 {
     font-size: larger;
 }
 
-#Jpictext{
+#familyVacation {
+    background-color: grey;
+    height: 700px;
+    padding-bottom: 5%;
+}
+
+#textOverImg{
+    float: left;
+    width: 500px;
+    height: 500px;
+    display:inline-block;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
     text-align: center;
-    font-size: larger;
+    
+}
+
+.firstTxt {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+#crystalMT{
+    float: right;
+    width: 500px;
+    height: 500px;
+    display:inline-block;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+
+.secondTxt{
+    text-align: mixed;
+    writing-mode: vertical-lr;
+    padding-top: 60px;
+    padding-left: 130px;
 }
